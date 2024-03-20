@@ -1,0 +1,41 @@
+.drop_down {
+  display: flex;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    position: absolute;
+    top: 40%;
+    right: 4px;
+    content: "";
+    pointer-events: none;
+  }
+
+  select {
+    width: 100%;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff00;
+    padding: 12px;
+
+    option {
+      padding: 8px;
+      font-size: 16px;
+      background-color: #2b2b30;
+      color: #87878F;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+  }
+
+}

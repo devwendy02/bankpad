@@ -1,0 +1,14 @@
+export default {
+  token_factory: {
+    1: '0x66e48b267C2339Ce9F033c7Fe76989700F0b41B8',
+    5: '0x76797dacbB222565752A73528f99d2dda959567d',
+  },
+  migration: {
+    1: '0xAc4efA4F2dd3757727D563Ef554cC4DE2B28dEaB',
+    5: '0x20c16e89449850Cd8d1bf052e6553CBC068a1fd6',
+  },
+  multiCall: {
+    1: '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696',
+    5: '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696'
+  },
+}
